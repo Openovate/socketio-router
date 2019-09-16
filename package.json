@@ -1,0 +1,33 @@
+{
+  "name": "@openovate/socketio-router",
+  "version": "0.0.1",
+  "description": "Router for Socket.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Openovate/socketio-router.git"
+  },
+  "keywords": [
+    "socket.io",
+    "socketio",
+    "router"
+  ],
+  "author": "Christian Blanquera <cblanquera@openovate.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Openovate/socketio-router/issues"
+  },
+  "homepage": "https://github.com/Openovate/socketio-router#readme",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@openovate/express-router": "^0.0.5"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "jest": "^24.8.0",
+    "node-fetch": "^2.6.0",
+    "socket.io": "^2.2.0"
+  }
+}
