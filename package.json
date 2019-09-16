@@ -1,6 +1,6 @@
 {
   "name": "@openovate/socketio-router",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Router for Socket.io",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@openovate/express-router": "^0.0.5"
+    "@openovate/express-router": "^0.0.6"
   },
   "devDependencies": {
     "express": "^4.17.1",
